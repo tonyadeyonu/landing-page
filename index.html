@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Links</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.1);
+            width: 90%;
+            max-width: 400px;
+        }
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+        .profile h1 {
+            margin: 15px 0 5px;
+            font-size: 26px;
+        }
+        .profile p {
+            font-size: 16px;
+            color: #cccccc;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .link {
+            display: block;
+            background: linear-gradient(45deg, #ff0000, #0073e6, #ffcc00);
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            transition: transform 0.2s, opacity 0.3s;
+            font-weight: bold;
+        }
+        .link:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+        @media (max-width: 480px) {
+            .container {
+                width: 100%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="Your Name">
+            <h1>Your Name</h1>
+            <p>Short bio or tagline</p>
+        </div>
+        <div class="links">
+            <a href="https://www.instagram.com/ton.omaly?igsh=aWF4dW5yb2kwZGY1&utm_source=qr" class="link">Instagram</a>
+            <a href="https://x.com/tonomaly?s=21" class="link">X</a>
+            <a href="https://www.tiktok.com/@tonomaly?_t=ZT-8uRBDNc7UJK&_r=1" class="link">TikTok</a>
+            <a href="https://www.linkedin.com/in/tony-adeyonu-4225ab1b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="link">LinkedIn</a>
+
+            <a href=mailto:tonyadeyonu@gmail.com class="link">Email</a>
+        </div>
+    </div>
+</body>
+</html>
